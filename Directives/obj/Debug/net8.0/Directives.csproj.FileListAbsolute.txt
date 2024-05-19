@@ -12,3 +12,4 @@
 /home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.pdb
 /home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.genruntimeconfig.cache
 /home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/ref/Directives.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.sourcelink.json

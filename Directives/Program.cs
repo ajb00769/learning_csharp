@@ -10,6 +10,7 @@ namespace Directive
     {
         public static void Main()
         {
+            const string unusedString = "This variable is not used";
             const int x = 0;
             int y = 1;
             int z = 2;
@@ -20,23 +21,28 @@ namespace Directive
 #if DEBUG
             y = 10;
             System.Console.WriteLine("Debug mode is enabled.");
-            System.Console.WriteLine($"This section of code will only be compiled or appear if the directive conditional is true.so attempting to print the modified value of z which is 20 won't work, z here is: {z}");
+            System.Console.WriteLine($"This section of code will only be compiled or appear if the directive conditional is true/enabled debug mode. So attempting to print the modified value of z in the false conditional which is 20 won't work, z here is: {z}. The value of y is changed to 10 as reassigned in this conditional directive: y is {y}");
 #else
             z = 20;
             System.Console.WriteLine("Debug mode is disabled.");
-            System.Console.WriteLine($"This section of code will only be compiled or appear if the directive conditional is true. In the conditional directive above y was changed to 10 but since the conditional is false the value of y remains unchanged: y is {y}");
+            System.Console.WriteLine($"This section of code will only be compiled or appear if the directive conditional is false/disabled debug mode. In the conditional directive above y was changed to 10 but since the conditional is false the value of y remains unchanged: y is {y}. The value of z is changed to 20 as reassigned in this conditional directive: z is {z}");
 #endif
+            // #pragma warning restore CS0168, CS0219
+            const string anotherUnusedString = "This second variable is also unused";
         }
     }
 }
-// #pragma warning restore CS0168, CS0219
 
 /*
 Directives are read by the precompiler before compiling the actual code and logic.
 
-Except for #if #else #elif directives, directives are not affected by code logic.
+Directives are not affected by code logic but instead dictates how compilation
+should be performed by the compiler such as only compiling certain sections of
+code based on a conditional directive or if warning and error messages should be
+displayed during runtime for a section of code.
+
 In the context of C# compilation there is no separate preprocessor or precompiler,
-everything is handled by one compiler. The flow happens:
+everything is handled by one compiler. The flow happens as follows:
 
  - Compiler SCANS FOR DIRECTIVES to use them as instructions before compiling, it
    will modify the source code to account for the instructions in the directives
@@ -55,12 +61,23 @@ everything is handled by one compiler. The flow happens:
    * NOTE: LINTERS user SEMANTIC ANALYSIS so you can catch these errors before even
    attempting to run your code.
  - CIL code is then generated after all validations and checks have been performed
-   or if no compile-time errors are caught. This signified the end of compile-time.
+   or if no compile-time errors are caught. This signified the eND OF COMPILE-TIME.
  - CODE OPTIMIZATION is then performed by the compiler on the intermediate code or
    CIL code to improve code efficiency or make the size smaller.
  - C# CIL interprets the bytecode and runs it in the virtual machine, this is where
-   runtime begins.
+   RUNTIME BEGINS and where runtime errors can happen such as uncaught exceptions
+   from inputs.
 
 In the case of #if #else #elif directives these sections of code are checked by the
-preprocessor and executed before actual code compilation.
+preprocessor and executed before actual code compilation. Hence only the section of
+code inside of the conditional directive the satisfies the condition will be
+compiled.
+
+Notice that the commented out code for the pragma directive to restore the warning
+is kept for illustration purposes. Pragma directives follow the order of execution
+during compilation in the context of applying certain settings only within the
+scope spanned across by the directive in this case the activatin and deactivation
+of warning messages for certain warning types. You can test this by uncommenting
+the code and only anotherUnusedString will get the warning message and unusedString
+will be exempt from the warning message.
 */
