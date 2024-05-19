@@ -1,0 +1,14 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/bin/Debug/net8.0/Directives
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/bin/Debug/net8.0/Directives.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/bin/Debug/net8.0/Directives.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/bin/Debug/net8.0/Directives.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/bin/Debug/net8.0/Directives.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/refint/Directives.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/Directives.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/obj/Debug/net8.0/ref/Directives.dll
