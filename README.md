@@ -9,7 +9,12 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
 ## Syntax and Structure
 
 - **Namespace and Using Directives**: Understand how using directives work and why they are essential.
-    - `Directives/`
+    - `Directives/Directives/ - DONE`
+    - `Directives/DirectiveConditionalCompilation/ - IN PROGRESS`
+    - `Directives/DirectiveWarningSuppression/ - IN PROGRESS`
+    - `Directives/DirectiveSymbolicConstants/ - IN PROGRESS`
+    - `Directives/DirectiveRegions/ - IN PROGRESS`
+    - `Directives/DirectiveErrors/ - IN PROGRESS`
 - **Classes and Methods**: Learn to define classes, methods, and how to call them.
 - **Main Method**: Understand the role of the Main method as the entry point of a C# application.
 
