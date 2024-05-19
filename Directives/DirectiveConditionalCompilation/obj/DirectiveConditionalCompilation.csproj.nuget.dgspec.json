@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj": {}
+    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj": {}
   },
   "projects": {
-    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj": {
+    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
+        "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
         "projectName": "DirectiveConditionalCompilation",
-        "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
+        "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
         "packagesPath": "/home/abercero/.nuget/packages/",
-        "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/obj/",
+        "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abercero/.nuget/NuGet/NuGet.Config"

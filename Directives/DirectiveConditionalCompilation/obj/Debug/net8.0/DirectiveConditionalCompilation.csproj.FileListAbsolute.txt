@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/bin/Debug/net8.0/DirectiveConditionalCompilation
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/bin/Debug/net8.0/DirectiveConditionalCompilation.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/bin/Debug/net8.0/DirectiveConditionalCompilation.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/bin/Debug/net8.0/DirectiveConditionalCompilation.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/bin/Debug/net8.0/DirectiveConditionalCompilation.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/refint/DirectiveConditionalCompilation.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/DirectiveConditionalCompilation.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/obj/Debug/net8.0/ref/DirectiveConditionalCompilation.dll

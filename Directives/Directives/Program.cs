@@ -1,4 +1,4 @@
-﻿#undef DEBUG 
+﻿#define DEBUG 
 #pragma warning disable CS0168, CS0219
 
 using System;

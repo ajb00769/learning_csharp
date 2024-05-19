@@ -10,7 +10,7 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
 
 - **Namespace and Using Directives**: Understand how using directives work and why they are essential.
     - `Directives/Directives/ - DONE`
-    - `Directives/DirectiveConditionalCompilation/ - IN PROGRESS`
+    - `Directives/DirectiveConditionalCompilation/ - DONE`
     - `Directives/DirectiveWarningSuppression/ - IN PROGRESS`
     - `Directives/DirectiveSymbolicConstants/ - IN PROGRESS`
     - `Directives/DirectiveRegions/ - IN PROGRESS`

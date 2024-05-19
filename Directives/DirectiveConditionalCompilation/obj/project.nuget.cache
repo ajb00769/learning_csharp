@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NrKMxnue5FT2Q7rebphzQ+R1dJNwwBLwKRyCswlX50Uli6WakscLGN0wee2Q/I3YTnBArr4gUBu8Kaz9BxfKgA==",
+  "dgSpecHash": "LKsykM4W0MZAM/edfnc0GfPe5uQ0VbNPN+nYVsR9fGdL8ORtaK5kR6m5+FR5cKA0JLOFZmikAeSYK/6pFDzKKA==",
   "success": true,
-  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
+  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveConditionalCompilation/DirectiveConditionalCompilation.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
