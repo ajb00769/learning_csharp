@@ -29,7 +29,7 @@ namespace Directive
         }
     }
 }
-// #pragma warning restore CS0168
+// #pragma warning restore CS0168, CS0219
 
 /*
 Directives are read by the precompiler before compiling the actual code and logic.
