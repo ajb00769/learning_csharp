@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/bin/Debug/net8.0/DirectiveWarningSuppression
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/bin/Debug/net8.0/DirectiveWarningSuppression.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/bin/Debug/net8.0/DirectiveWarningSuppression.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/bin/Debug/net8.0/DirectiveWarningSuppression.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/bin/Debug/net8.0/DirectiveWarningSuppression.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/refint/DirectiveWarningSuppression.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/DirectiveWarningSuppression.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/Debug/net8.0/ref/DirectiveWarningSuppression.dll

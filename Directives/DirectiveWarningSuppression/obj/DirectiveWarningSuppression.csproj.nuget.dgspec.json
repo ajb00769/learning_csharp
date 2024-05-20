@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj": {}
+    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj": {}
   },
   "projects": {
-    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj": {
+    "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj",
+        "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj",
         "projectName": "DirectiveWarningSuppression",
-        "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj",
+        "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/DirectiveWarningSuppression.csproj",
         "packagesPath": "/home/abercero/.nuget/packages/",
-        "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveWarningSuppression/obj/",
+        "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveWarningSuppression/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abercero/.nuget/NuGet/NuGet.Config"
