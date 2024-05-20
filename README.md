@@ -11,10 +11,13 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
 - **Namespace and Using Directives**: Understand how using directives work and why they are essential.
     - `Directives/Directives/ - DONE`
     - `Directives/DirectiveConditionalCompilation/ - DONE`
-    - `Directives/DirectiveWarningSuppression/ - IN PROGRESS`
+    - `Directives/DirectiveWarningSuppression/ - DONE`
     - `Directives/DirectiveSymbolicConstants/ - IN PROGRESS`
     - `Directives/DirectiveRegions/ - IN PROGRESS`
     - `Directives/DirectiveErrors/ - IN PROGRESS`
+
+        _The exercises above are for basic usage, I plan to create separate section for intermediate and advanced usages for each exercise because there isn't enough depth with just doing `#pragma warning disable` and etc._
+
 - **Classes and Methods**: Learn to define classes, methods, and how to call them.
 - **Main Method**: Understand the role of the Main method as the entry point of a C# application.
 
