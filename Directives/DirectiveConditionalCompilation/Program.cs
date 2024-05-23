@@ -1,4 +1,4 @@
-﻿#define TEST_MODE
+#define TEST_MODE
 #undef PROD_MODE
 
 using System;
@@ -13,9 +13,9 @@ namespace ConditionalCompilation
 #if TEST_MODE
             initMessage = "Program running in test mode.";
 #elif PROD_MODE
-            initMessage = "Program running in production."
+            initMessage = "Program running in production.";
 #else
-            initMessage = "Invalid program mode."
+            initMessage = "Invalid program mode.";
 #endif
             System.Console.WriteLine(initMessage);
         }
