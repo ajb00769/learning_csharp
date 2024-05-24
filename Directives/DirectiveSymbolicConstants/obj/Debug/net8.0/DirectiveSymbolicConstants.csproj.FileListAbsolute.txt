@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/bin/Debug/net8.0/DirectiveSymbolicConstants
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/bin/Debug/net8.0/DirectiveSymbolicConstants.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/bin/Debug/net8.0/DirectiveSymbolicConstants.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/bin/Debug/net8.0/DirectiveSymbolicConstants.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/bin/Debug/net8.0/DirectiveSymbolicConstants.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/refint/DirectiveSymbolicConstants.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/DirectiveSymbolicConstants.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/Debug/net8.0/ref/DirectiveSymbolicConstants.dll

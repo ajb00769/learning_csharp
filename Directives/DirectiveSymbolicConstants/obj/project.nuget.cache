@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KekCaw3DHBBUDXRu2j9ujhgta6LUwyzQTGTjvednCGjM40UWPOB1veKMIV/WKprtGdTuy706XMVBWpNSrMEGsw==",
+  "dgSpecHash": "bHFoLG3mCnMuU43cpdIUblj3HZ5fWTcNjInV3gUwyRtUacBUA8CnwaOhrSFAeUNpH055ICOz+S+JWoT0aMFXQQ==",
   "success": true,
-  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
+  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

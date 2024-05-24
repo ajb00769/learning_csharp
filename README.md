@@ -12,7 +12,7 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
     - `Directives/Directives/ - DONE`
     - `Directives/DirectiveConditionalCompilation/ - DONE`
     - `Directives/DirectiveWarningSuppression/ - DONE`
-    - `Directives/DirectiveSymbolicConstants/ - IN PROGRESS`
+    - `Directives/DirectiveSymbolicConstants/ - DONE`
     - `Directives/DirectiveRegions/ - IN PROGRESS`
     - `Directives/DirectiveErrors/ - IN PROGRESS`
 

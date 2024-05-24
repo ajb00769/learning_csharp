@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
+      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
       "projectName": "DirectiveSymbolicConstants",
-      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
+      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/DirectiveSymbolicConstants.csproj",
       "packagesPath": "/home/abercero/.nuget/packages/",
-      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveSymbolicConstants/obj/",
+      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveSymbolicConstants/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abercero/.nuget/NuGet/NuGet.Config"
