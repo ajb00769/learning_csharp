@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/bin/Debug/net8.0/DirectiveRegions
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/bin/Debug/net8.0/DirectiveRegions.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/bin/Debug/net8.0/DirectiveRegions.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/bin/Debug/net8.0/DirectiveRegions.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/bin/Debug/net8.0/DirectiveRegions.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/refint/DirectiveRegions.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/DirectiveRegions.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/Debug/net8.0/ref/DirectiveRegions.dll

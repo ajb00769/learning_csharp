@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZKh2NFwonYr5R+pmcSqlfdJNWWMw5TO5OhwbjWp2pxA6b4PSuhw9Vg3PaVD9GUryPxZz1Wo1zRufZ6ST05SHA==",
+  "dgSpecHash": "BeGzPqv7OJsJYcRzpNEfmt4+vVGL5lXA1HBn+FLfO4yo3SlFiiXLx72iJI2KsUNFBPhjsYaXT/rFEytmFRqupg==",
   "success": true,
-  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveRegions/DirectiveRegions.csproj",
+  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/DirectiveRegions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

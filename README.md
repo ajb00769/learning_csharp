@@ -13,7 +13,7 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
     - `Directives/DirectiveConditionalCompilation/ - DONE`
     - `Directives/DirectiveWarningSuppression/ - DONE`
     - `Directives/DirectiveSymbolicConstants/ - DONE`
-    - `Directives/DirectiveRegions/ - IN PROGRESS`
+    - `Directives/DirectiveRegions/ - DONE`
     - `Directives/DirectiveErrors/ - IN PROGRESS`
 
         _The exercises above are for basic usage, I plan to create separate section for intermediate and advanced usages for each exercise because there isn't enough depth with just doing `#pragma warning disable` and etc._

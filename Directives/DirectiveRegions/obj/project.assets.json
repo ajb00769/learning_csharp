@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveRegions/DirectiveRegions.csproj",
+      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/DirectiveRegions.csproj",
       "projectName": "DirectiveRegions",
-      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveRegions/DirectiveRegions.csproj",
+      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/DirectiveRegions.csproj",
       "packagesPath": "/home/abercero/.nuget/packages/",
-      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveRegions/obj/",
+      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveRegions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abercero/.nuget/NuGet/NuGet.Config"
