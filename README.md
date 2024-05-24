@@ -14,9 +14,8 @@ I am using .NET SDK v8.0.204 and runtime versions 8.0.4 for both .NETCore and As
     - `Directives/DirectiveWarningSuppression/ - DONE`
     - `Directives/DirectiveSymbolicConstants/ - DONE`
     - `Directives/DirectiveRegions/ - DONE`
-    - `Directives/DirectiveErrors/ - IN PROGRESS`
-
-        _The exercises above are for basic usage, I plan to create separate section for intermediate and advanced usages for each exercise because there isn't enough depth with just doing `#pragma warning disable` and etc._
+    - `Directives/DirectiveErrors/ - DONE`
+    - **Project:** Write a program that utilizes all of the above pre-compiler directives._
 
 - **Classes and Methods**: Learn to define classes, methods, and how to call them.
 - **Main Method**: Understand the role of the Main method as the entry point of a C# application.

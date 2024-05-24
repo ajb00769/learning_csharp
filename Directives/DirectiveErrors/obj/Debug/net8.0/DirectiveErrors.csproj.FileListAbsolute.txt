@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/bin/Debug/net8.0/DirectiveErrors
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/bin/Debug/net8.0/DirectiveErrors.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/bin/Debug/net8.0/DirectiveErrors.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/bin/Debug/net8.0/DirectiveErrors.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/bin/Debug/net8.0/DirectiveErrors.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/refint/DirectiveErrors.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/DirectiveErrors.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/Debug/net8.0/ref/DirectiveErrors.dll

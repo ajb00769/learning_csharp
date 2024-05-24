@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveErrors/DirectiveErrors.csproj",
+      "projectUniqueName": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/DirectiveErrors.csproj",
       "projectName": "DirectiveErrors",
-      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveErrors/DirectiveErrors.csproj",
+      "projectPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/DirectiveErrors.csproj",
       "packagesPath": "/home/abercero/.nuget/packages/",
-      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveErrors/obj/",
+      "outputPath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abercero/.nuget/NuGet/NuGet.Config"

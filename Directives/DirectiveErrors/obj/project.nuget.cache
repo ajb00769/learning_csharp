@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sPQVNpOlgn4Z0Tz+CYLQnzVTwKfGv0LeG0gosnr8Ws4FT+rq4kLVB2HY8QW5i9IGjj+T68AxExZ9XL0ayjr8eQ==",
+  "dgSpecHash": "EQlCj8IOvww90rNZHPJVqTIz7mCP7Di7yVW9/c5MdQ/925iGc7aOsATNseMTCRLbSqvK+4OUV6GYC+ogHysftg==",
   "success": true,
-  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/DirectiveErrors/DirectiveErrors.csproj",
+  "projectFilePath": "/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Directives/DirectiveErrors/DirectiveErrors.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
