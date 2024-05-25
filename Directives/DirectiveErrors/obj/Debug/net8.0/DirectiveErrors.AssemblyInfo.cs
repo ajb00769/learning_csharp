@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DirectiveErrors")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e1cf3a5781dc2b2a0076ae8f94f571f4cb8a5a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae3dd840a86b28acbf0f8918c8274917caa11e84")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectiveErrors")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectiveErrors")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
