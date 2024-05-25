@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/bin/Debug/net8.0/NamespaceForEachClass
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/bin/Debug/net8.0/NamespaceForEachClass.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/bin/Debug/net8.0/NamespaceForEachClass.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/bin/Debug/net8.0/NamespaceForEachClass.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/bin/Debug/net8.0/NamespaceForEachClass.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/refint/NamespaceForEachClass.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/NamespaceForEachClass.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceForEachClass/obj/Debug/net8.0/ref/NamespaceForEachClass.dll
