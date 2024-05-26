@@ -1,34 +1,34 @@
 using System;
+using Animals;
 
 namespace Pets
 {
-    public class Dog
+    // specify correct base class path
+    public class Dog : Animals.Animal
     {
-        private string? DogName;
+        // inherit constructor
+        public Dog(string animalName) : base(animalName)
+        { }
 
-        public Dog(string dogName)
+        public string GetDogName()
         {
-            this.DogName = dogName;
+            return this.AnimalName ?? "NoName";
         }
 
-        public void Bark()
+        public override void MakeSound()
         {
-            System.Console.WriteLine($"{DogName}: Bark bark bark!");
+            System.Console.WriteLine($"{this.AnimalName}: Bark bark bark!");
         }
     }
 
-    public class Cat
+    public class Cat : Animals.Animal
     {
-        private string? CatName;
+        public Cat(string animalName) : base(animalName)
+        { }
 
-        public Cat(string catName)
+        public override void MakeSound()
         {
-            this.CatName = catName;
-        }
-
-        public void Meow()
-        {
-            System.Console.WriteLine($"{CatName}: Meow meow meow...");
+            System.Console.WriteLine($"{this.AnimalName}: Meow!");
         }
     }
 }
