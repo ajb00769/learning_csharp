@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/bin/Debug/net8.0/NamespaceLibraryMgmt
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/bin/Debug/net8.0/NamespaceLibraryMgmt.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/bin/Debug/net8.0/NamespaceLibraryMgmt.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/bin/Debug/net8.0/NamespaceLibraryMgmt.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/bin/Debug/net8.0/NamespaceLibraryMgmt.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/refint/NamespaceLibraryMgmt.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/NamespaceLibraryMgmt.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceLibraryMgmt/obj/Debug/net8.0/ref/NamespaceLibraryMgmt.dll
