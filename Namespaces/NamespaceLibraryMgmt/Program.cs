@@ -3,6 +3,7 @@ using System.Threading;
 using Library;
 using Authors;
 using Books;
+using System.Collections.Generic;
 
 namespace LibraryApp
 {
@@ -25,9 +26,8 @@ namespace LibraryApp
             }
             catch (System.Exception)
             {
-                string ErrMsg = "Failed to initialize an instance of Library";
-                System.Console.WriteLine($"[ERROR] {ErrMsg}");
-                throw new Exception(ErrMsg);
+                System.Console.WriteLine($"[ERROR] Failed to initialize an instance of Library.");
+                throw;
             }
 
             Authors.Author NewAuthor;
@@ -40,9 +40,8 @@ namespace LibraryApp
             }
             catch (System.Exception)
             {
-                string ErrMsg = "Failed to create a new Author";
-                System.Console.WriteLine($"[ERROR] {ErrMsg}");
-                throw new Exception(ErrMsg);
+                System.Console.WriteLine($"[ERROR] Failed to create a new Author.");
+                throw;
             }
             Thread.Sleep(250);
 
@@ -53,38 +52,47 @@ namespace LibraryApp
             }
             catch (System.Exception)
             {
-                string ErrMsg = "Failed to create a new Book";
-                System.Console.WriteLine($"[ERROR] {ErrMsg}");
-                throw new Exception(ErrMsg);
+                System.Console.WriteLine($"[ERROR] Failed to create a new Book.");
+                throw;
             }
             Thread.Sleep(250);
 
             try
             {
-                LibraryInstance.LibraryBooks.Add(NewBook);
-                foreach (var book in LibraryInstance.LibraryBooks)
-                {
-                    System.Console.WriteLine($"[INFO] All books in Library: {book.BookName}");
-                }
+                LibraryInstance.AddBook(NewBook);
+                LibraryInstance.PrintAllBooks();
             }
             catch (System.Exception)
             {
-                string ErrMsg = "Failed to add Book to Library";
-                System.Console.WriteLine($"[ERROR] {ErrMsg}");
-                throw new Exception(ErrMsg);
+                System.Console.WriteLine($"[ERROR] Failed to add Book to Library.");
+                throw;
             }
 
-            string TestSearchByTitleBookName = "Harry";
+            string TestSearchByTitleBookName = "Harry Potter";
 
             try
             {
-                Books.Book TestSearchByTitle = LibraryInstance.SearchForBookByTitle(TestSearchByTitleBookName);
-                System.Console.WriteLine($"[INFO] Book '{TestSearchByTitle.BookName}' found!");
+                KeyValuePair<int, Books.Book> TestSearchByTitle = LibraryInstance.SearchForBookByTitle(TestSearchByTitleBookName);
+                System.Console.WriteLine($"[INFO] Book '{TestSearchByTitle.Value.BookName}' found!");
             }
             catch (NullReferenceException)
             {
                 System.Console.WriteLine($"[INFO] Book '{TestSearchByTitleBookName}' not found.");
             }
+
+            string TestSearchByAuthorBookAuthor = "JK Rowling";
+
+            try
+            {
+                KeyValuePair<int, Books.Book> TestSearchByAuthor = LibraryInstance.SearchForBookByAuthor(TestSearchByAuthorBookAuthor);
+                System.Console.WriteLine($"[INFO] Author '{TestSearchByAuthor.Value.BookAuthor.AuthorName}' found for the book: '{TestSearchByAuthor.Value.BookName}'");
+            }
+            catch (NullReferenceException)
+            {
+                System.Console.WriteLine($"[INFO] Author '{TestSearchByAuthorBookAuthor}' not found.");
+            }
+
+            LibraryInstance.RemoveBook("Harry Potter");
         }
     }
 }
