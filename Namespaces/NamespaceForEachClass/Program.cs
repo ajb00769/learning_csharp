@@ -5,7 +5,7 @@ using PetHandler;
 
 namespace Main
 {
-    public class Program
+    static class Program
     {
         static void Main()
         {

@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/bin/Debug/net8.0/StructsVsClasses
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/bin/Debug/net8.0/StructsVsClasses.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/bin/Debug/net8.0/StructsVsClasses.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/bin/Debug/net8.0/StructsVsClasses.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/bin/Debug/net8.0/StructsVsClasses.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/refint/StructsVsClasses.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/StructsVsClasses.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Structs/StructsVsClasses/obj/Debug/net8.0/ref/StructsVsClasses.dll

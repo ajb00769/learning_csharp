@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace LibraryApp
 {
-    public class Program
+    static class Program
     {
 
         static void Main()
