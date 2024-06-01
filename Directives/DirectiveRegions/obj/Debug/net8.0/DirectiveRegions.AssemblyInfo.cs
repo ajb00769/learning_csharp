@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DirectiveRegions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba2359e50c4463ccee183336e2de2a1015e80ef3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5661cf072408ba9d6ade7f818d0c0f97c6650960")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectiveRegions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectiveRegions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NamespaceForEachClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95a631d7459126b8a0a8cb2ab73965f8ff4e477a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5661cf072408ba9d6ade7f818d0c0f97c6650960")]
 [assembly: System.Reflection.AssemblyProductAttribute("NamespaceForEachClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NamespaceForEachClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

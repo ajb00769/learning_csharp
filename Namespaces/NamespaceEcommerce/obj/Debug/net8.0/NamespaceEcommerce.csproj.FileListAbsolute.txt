@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/bin/Debug/net8.0/NamespaceEcommerce
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/bin/Debug/net8.0/NamespaceEcommerce.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/bin/Debug/net8.0/NamespaceEcommerce.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/bin/Debug/net8.0/NamespaceEcommerce.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/bin/Debug/net8.0/NamespaceEcommerce.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/refint/NamespaceEcommerce.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/NamespaceEcommerce.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceEcommerce/obj/Debug/net8.0/ref/NamespaceEcommerce.dll
