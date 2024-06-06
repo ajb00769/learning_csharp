@@ -1,0 +1,15 @@
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.AssemblyInfoInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.AssemblyInfo.cs
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.csproj.CoreCompileInputs.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.sourcelink.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/bin/Debug/net8.0/NamespaceGame
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/bin/Debug/net8.0/NamespaceGame.deps.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/bin/Debug/net8.0/NamespaceGame.runtimeconfig.json
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/bin/Debug/net8.0/NamespaceGame.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/bin/Debug/net8.0/NamespaceGame.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/refint/NamespaceGame.dll
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.pdb
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/NamespaceGame.genruntimeconfig.cache
+/home/abercero/Dev/Sandbox/learning-csharp/basic-syntax/Namespaces/NamespaceGame/obj/Debug/net8.0/ref/NamespaceGame.dll
