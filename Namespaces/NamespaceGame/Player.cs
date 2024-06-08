@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Player
 {
@@ -28,6 +29,10 @@ namespace Player
         private int Magic;
         private long CurrentExp; // private long ExpLevelUp = ((PlayerLevel ^ 9) / 2) + 100;
         public int UnallocatedStats;
+
+        private int HP;
+        private int PDMG;
+        private int MDMG;
 
         // Declaration of Lists and mapping
         private List<KeyValuePair<string, int>> StatMap;
@@ -63,6 +68,10 @@ namespace Player
                 new KeyValuePair<string, int> ("Defense",this.Defense),
                 new KeyValuePair<string, int> ("Magic",this.Magic),
             };
+
+            this.PDMG = this.Strength;
+            this.MDMG = this.Magic;
+            this.HP = this.HitPoints;
         }
 
         // Methods
@@ -129,6 +138,27 @@ namespace Player
             }
         }
 
-        // public int CalculateDamage() { }
+        public int DeductHP(int hpAmount)
+        {
+            this.HP -= hpAmount;
+            if (this.HP <= 0)
+            {
+                IsAlive = false;
+            }
+            return this.HP;
+        }
+
+        public int GetAgility() { return this.Agility; }
+
+        public int GetPDMG() { return this.PDMG; }
+
+        public int GetMDMG() { return this.MDMG; }
+
+        public string GetPlayerClass() { return this.PlayerClass; }
+
+        public bool GetIsAlive() { return this.IsAlive; }
+
+        public int GetHP() { return this.HP; }
     }
+
 }

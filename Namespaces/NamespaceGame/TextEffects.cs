@@ -14,7 +14,7 @@ namespace TextEffects
             foreach (char character in CharArray)
             {
                 System.Console.Write(character);
-                Thread.Sleep(20);
+                Thread.Sleep(10);
             }
             System.Console.WriteLine("\n");
         }

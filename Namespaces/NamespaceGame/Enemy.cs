@@ -5,7 +5,7 @@ namespace Enemy
 {
     public class Enemy
     {
-        private string EnemyName;
+        public string EnemyName;
         private string EnemyClass;
         private int EnemyLevel;
         private int EnemyTier;
@@ -17,6 +17,12 @@ namespace Enemy
         private int EnemyMagic;
         private bool IsAlive;
         private long ExpYield;
+
+        private int EnemyHP;
+        private int EnemyPDMG;
+        private int EnemyMDMG;
+
+        private List<KeyValuePair<string, int>> EnemyStatMap;
 
         public Enemy(string enemyName, string enemyClass, int enemyLevel, int enemyTier)
         {
@@ -74,17 +80,55 @@ namespace Enemy
                 this.EnemyDefense *= this.EnemyTier;
                 this.EnemyMagic *= this.EnemyTier;
             }
+
+            this.EnemyStatMap = new()
+            {
+                new KeyValuePair<string, int> ("HitPoints", this.EnemyHitPoints),
+                new KeyValuePair<string, int> ("Strength", this.EnemyStrength),
+                new KeyValuePair<string, int> ("Agility", this.EnemyAgility),
+                new KeyValuePair<string, int> ("Dexterity", this.EnemyDexterity),
+                new KeyValuePair<string, int> ("Defense", this.EnemyDefense),
+                new KeyValuePair<string, int> ("Magic", this.EnemyMagic),
+            };
+
+            this.EnemyPDMG = this.EnemyStrength;
+            this.EnemyMDMG = this.EnemyMagic;
+            this.EnemyHP = this.EnemyHitPoints;
         }
 
         public void PrintEnemyStats()
         {
-            System.Console.WriteLine($"---[{this.EnemyClass}] {this.EnemyName} [Lv.{this.EnemyLevel}]---\n");
-            System.Console.WriteLine($"HitPoints".ToString().PadRight(9, ' ') + $": {this.EnemyHitPoints}");
-            System.Console.WriteLine($"Strength".ToString().PadRight(9, ' ') + $": {this.EnemyStrength}");
-            System.Console.WriteLine($"Agility".ToString().PadRight(9, ' ') + $": {this.EnemyAgility}");
-            System.Console.WriteLine($"Dexterity".ToString().PadRight(9, ' ') + $": {this.EnemyDexterity}");
-            System.Console.WriteLine($"Defense".ToString().PadRight(9, ' ') + $": {this.EnemyDefense}");
-            System.Console.WriteLine($"Magic".ToString().PadRight(9, ' ') + $": {this.EnemyMagic}");
+            string EnemyHeader = $"---[{this.EnemyClass}] {this.EnemyName} [Lv.{this.EnemyLevel}]---\n";
+            int TextWidth = EnemyHeader.Count();
+
+            System.Console.WriteLine(EnemyHeader);
+            foreach (var item in this.EnemyStatMap)
+            {
+                System.Console.WriteLine($"{item.Key}".ToString().PadRight(9, ' ') + $": {item.Value}");
+            }
+            System.Console.WriteLine("\n".PadRight(TextWidth, '-'));
         }
+
+        public int DeductEnemyHP(int hpAmount)
+        {
+            this.EnemyHP -= hpAmount;
+            if (this.EnemyHP <= 0)
+            {
+                IsAlive = false;
+            }
+            return this.EnemyHP;
+        }
+
+        public int GetAgility() { return this.EnemyAgility; }
+
+        public int GetPDMG() { return this.EnemyPDMG; }
+
+        public int GetMDMG() { return this.EnemyMDMG; }
+
+        public string GetEnemyClass() { return this.EnemyClass; }
+
+        public bool GetIsAlive() { return this.IsAlive; }
+
+        public int GetEnemyHP() { return this.EnemyHP; }
     }
 }
