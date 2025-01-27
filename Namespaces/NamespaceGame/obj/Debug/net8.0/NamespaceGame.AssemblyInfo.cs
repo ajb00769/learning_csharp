@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NamespaceGame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7972918010e79ba11c93dd5b239098ce566ac1b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+020bb878011de4ee7c4168a9dd39132af8022eda")]
 [assembly: System.Reflection.AssemblyProductAttribute("NamespaceGame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NamespaceGame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

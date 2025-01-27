@@ -35,13 +35,13 @@ namespace Player
         private int MDMG;
 
         // Declaration of Lists and mapping
-        private List<KeyValuePair<string, int>> StatMap;
-        public List<KeyValuePair<char, string>> ClassMap = new() {
+        private readonly List<KeyValuePair<string, int>> StatMap;
+        public List<KeyValuePair<char, string>> ClassMap = [
             new KeyValuePair<char, string> ('W', "Warrior"),
             new KeyValuePair<char, string> ('A', "Archer"),
             new KeyValuePair<char, string> ('R', "Rogue"),
             new KeyValuePair<char, string> ('M', "Mage"),
-        };
+        ];
 
         // Constructors
         public Player(string playerName)
@@ -59,15 +59,14 @@ namespace Player
             this.UnallocatedStats = 0;
             this.CurrentExp = 0;
 
-            this.StatMap = new List<KeyValuePair<string, int>>
-            {
+            this.StatMap = [
                 new KeyValuePair<string, int> ("HitPoints",this.HitPoints),
                 new KeyValuePair<string, int> ("Strength",this.Strength),
                 new KeyValuePair<string, int> ("Agility",this.Agility),
                 new KeyValuePair<string, int> ("Dexterity",this.Dexterity),
                 new KeyValuePair<string, int> ("Defense",this.Defense),
                 new KeyValuePair<string, int> ("Magic",this.Magic),
-            };
+            ];
 
             this.PDMG = this.Strength;
             this.MDMG = this.Magic;
@@ -78,15 +77,15 @@ namespace Player
         public void PrintPlayerStats()
         {
             string StatHeader = $"---{this.PlayerName}'s Stats---";
-            System.Console.WriteLine($"\n{StatHeader}\n");
-            System.Console.WriteLine($"{"LEVEL".PadRight(9, ' ')}" + $": {this.PlayerLevel}");
-            System.Console.WriteLine($"{"Class".PadRight(9, ' ')}" + $": {this.PlayerClass}\n");
+            Console.WriteLine($"\n{StatHeader}\n");
+            Console.WriteLine($"{"LEVEL".PadRight(9, ' ')}: {this.PlayerLevel}");
+            Console.WriteLine($"{"Class".PadRight(9, ' ')}: {this.PlayerClass}\n");
             foreach (var stat in this.StatMap)
             {
-                System.Console.WriteLine($"{stat.Key.ToString().PadRight(9, ' ')}: {stat.Value}");
+                System.Console.WriteLine($"{stat.Key.PadRight(9, ' ')}: {stat.Value}");
             }
             System.Console.WriteLine($"\nStat Pts : {this.UnallocatedStats}");
-            System.Console.WriteLine($"".PadRight(StatHeader.Count(), '-'));
+            System.Console.WriteLine("".PadRight(StatHeader.Length, '-'));
         }
 
         public void UpdateStats(string statName, int statAmount)
@@ -160,5 +159,4 @@ namespace Player
 
         public int GetHP() { return this.HP; }
     }
-
 }
