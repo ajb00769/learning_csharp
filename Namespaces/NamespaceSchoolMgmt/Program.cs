@@ -1,6 +1,7 @@
 ﻿using System;
 using Student;
 using DatabaseHandler;
+using Transaction;
 using Microsoft.Data.SqlClient;
 
 namespace SchoolMgmt
@@ -11,8 +12,8 @@ namespace SchoolMgmt
         {
             Console.WriteLine("Initializing program.");
             Thread.Sleep(2000);
-            bool DbInitSuccess = DatabaseHandler.DatabaseHandler.InitDb();
-            if (!DbInitSuccess)
+            bool dbInitSuccess = DatabaseHandler.DatabaseHandler.InitDb();
+            if (!dbInitSuccess)
             {
                 Console.WriteLine("Failure in initializing the database. Exiting program.");
                 Environment.Exit(1);
@@ -25,21 +26,31 @@ namespace SchoolMgmt
 
             Console.WriteLine("Please type the number of the action you want to perform:\n[1] Add a New Student\n[2] Get an Existing Student\n[3] Update an Existing Student's Data\n[4] Delete a Student");
 
-            char[] ValidTransactionType = ['1', '2', '3', '4'];
-            char SelectedTransactionType;
+            char[] validTransactionType = ['1', '2', '3', '4'];
+            char selectedTransactionType;
 
             while (true)
             {
-                char KeyPressed = Console.ReadKey(true).KeyChar;
+                char keyPressed = Console.ReadKey(true).KeyChar;
 
-                if (ValidTransactionType.Contains(KeyPressed))
+                if (validTransactionType.Contains(keyPressed))
                 {
-                    SelectedTransactionType = KeyPressed;
+                    selectedTransactionType = keyPressed;
                     break;
                 }
             }
 
-            Console.WriteLine(SelectedTransactionType);
+            Transaction.Transaction transactionHandler = new();
+
+            switch (selectedTransactionType)
+            {
+                case '1':
+                    Student.Student studentCreated = transactionHandler.HandleUserInput();
+                    bool studentSavedSuccess = DatabaseHandler.DatabaseHandler.AddStudent(studentCreated);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Student
         private readonly int StudentId;
         private readonly string LastName;
         private readonly string FirstName;
-        private string MiddleName = null!;
+        private string? MiddleName;
 
         public Student(int studentId, string lastName, string firstName)
         {
@@ -22,6 +22,25 @@ namespace Student
             this.LastName = lastName;
             this.FirstName = firstName;
             this.MiddleName = middleName;
+        }
+
+        public string GetLastName()
+        {
+            return this.LastName;
+        }
+
+        public string GetFirstName()
+        {
+            return this.FirstName;
+        }
+
+        public string GetMiddleName()
+        {
+            if (String.IsNullOrEmpty(this.MiddleName))
+            {
+                return "";
+            }
+            return this.MiddleName;
         }
 
         public void UpdateMiddleName(string newMiddleName)

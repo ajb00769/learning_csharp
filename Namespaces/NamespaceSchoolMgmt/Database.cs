@@ -40,8 +40,33 @@ namespace DatabaseHandler
             }
         }
 
-        public static void AddStudent(Student.Student student)
+        public static bool AddStudent(Student.Student student)
         {
+            try
+            {
+                SqliteConnection Db = DbConnection();
+                Db.Open();
+
+                var insertCommand = Db.CreateCommand();
+                insertCommand.CommandText =
+                @"
+                    INSERT INTO students (lastname, firstname, middlename)
+                    VALUES (@lastname, @firstname, @middlename);
+                ";
+
+                insertCommand.Parameters.AddWithValue("@lastname", student.GetLastName());
+                insertCommand.Parameters.AddWithValue("@firstname", student.GetFirstName());
+                insertCommand.Parameters.AddWithValue("@middlename", student.GetMiddleName());
+
+                insertCommand.ExecuteNonQuery();
+                Db.Close();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
         }
 
         public static void GetStudent() { }
