@@ -5,8 +5,8 @@ namespace Transaction
 {
     public class Transaction
     {
-        private string lastName;
-        private string firstName;
+        private string? lastName;
+        private string? firstName;
         private string? middleName;
 
         public Student.Student HandleUserInput()
@@ -26,7 +26,15 @@ namespace Transaction
             Console.Write("Enter the student's Middle Name (Optional): ");
             middleName = Console.ReadLine();
 
-            return new Student.Student(0, lastName, firstName, middleName);
+            if (String.IsNullOrEmpty(middleName))
+            {
+                return new Student.Student(0, lastName, firstName);
+            }
+            else
+            {
+                return new Student.Student(0, lastName, firstName, middleName);
+            }
+
         }
     }
 }
