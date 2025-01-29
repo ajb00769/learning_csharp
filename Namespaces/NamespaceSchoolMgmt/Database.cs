@@ -1,4 +1,5 @@
 using System;
+using System.Data.Common;
 using Microsoft.Data.Sqlite;
 using Student;
 
@@ -44,10 +45,9 @@ namespace DatabaseHandler
         {
             try
             {
-                SqliteConnection Db = DbConnection();
-                Db.Open();
+                SqliteConnection db = DbConnection();
 
-                var insertCommand = Db.CreateCommand();
+                var insertCommand = db.CreateCommand();
                 insertCommand.CommandText =
                 @"
                     INSERT INTO students (lastname, firstname, middlename)
@@ -58,8 +58,9 @@ namespace DatabaseHandler
                 insertCommand.Parameters.AddWithValue("@firstname", student.GetFirstName());
                 insertCommand.Parameters.AddWithValue("@middlename", student.GetMiddleName());
 
+                db.Open();
                 insertCommand.ExecuteNonQuery();
-                Db.Close();
+                db.Close();
                 return true;
             }
             catch (Exception e)
@@ -69,7 +70,39 @@ namespace DatabaseHandler
             }
         }
 
-        public static void GetStudent() { }
+        public static Student.Student? GetStudent(string lastname, string firstname)
+        {
+            try
+            {
+                SqliteConnection db = DbConnection();
+
+                var getCommand = db.CreateCommand();
+                getCommand.CommandText =
+                @"
+                    SELECT * FROM students WHERE lastname=@lastname
+                    AND firstname=@firstname;
+                ";
+
+                getCommand.Parameters.AddWithValue("@lastname", lastname);
+                getCommand.Parameters.AddWithValue("@firstname", firstname);
+
+                db.Open();
+                using var result = getCommand.ExecuteReader();
+                if (result.Read())
+                {
+                    return new Student.Student(result.GetInt32(0), result.GetString(1), result.GetString(2));
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return null;
+            }
+        }
 
         public static void UpdateStudent() { }
 

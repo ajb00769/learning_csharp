@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Student
 {
@@ -41,6 +42,11 @@ namespace Student
                 return "";
             }
             return this.MiddleName;
+        }
+
+        public int GetStudentId()
+        {
+            return this.StudentId;
         }
 
         public void UpdateMiddleName(string newMiddleName)

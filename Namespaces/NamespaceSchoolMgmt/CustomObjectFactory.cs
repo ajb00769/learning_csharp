@@ -1,15 +1,15 @@
 using System;
 using Student;
 
-namespace Transaction
+namespace CustomObjectFactory
 {
-    public class Transaction
+    public class CustomObjectFactory
     {
         private string? lastName;
         private string? firstName;
         private string? middleName;
 
-        public Student.Student HandleUserInput()
+        public Student.Student CreateStudentObj()
         {
             while (String.IsNullOrEmpty(lastName))
             {
@@ -34,7 +34,16 @@ namespace Transaction
             {
                 return new Student.Student(0, lastName, firstName, middleName);
             }
+        }
 
+        public string? GetLastName()
+        {
+            return this.lastName;
+        }
+
+        public string? GetFirstName()
+        {
+            return this.firstName;
         }
     }
 }
